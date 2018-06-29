@@ -57,9 +57,7 @@ error_reporting(1);
 			?>
 			<div id="about">
 				<h1>WEB Technologies</h1>
-				<h2>Роксана Янева</h2>
-				<h3>Софтуерно инженерство</h3>
-				<h3>3 курс, 5 група, 61871</h3>
+				
 			</div>
 			<?php
 				}	
