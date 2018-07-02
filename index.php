@@ -38,7 +38,7 @@ error_reporting(1);
 		</nav>
 		<main class="content">
 			<?php
-				@$page = $_REQUEST['page'];
+				@$page = $_REQUEST["page"];
 				if ($page == "") {
 			?>
 			<div id="homepage">
@@ -48,16 +48,15 @@ error_reporting(1);
 			<?php
 				}
 				if ($page == "registration") {
-					include_once('php/registration.php');
+					include_once("php/registration.php");
 				}
 				if ($page == "login") {
-					include_once('php/login.php');
+					include_once("php/login.php");
 				}
 				if ($page == "about") {
 			?>
 			<div id="about">
 				<h1>WEB Technologies</h1>
-				
 			</div>
 			<?php
 				}	
